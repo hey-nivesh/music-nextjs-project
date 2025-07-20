@@ -1,0 +1,634 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "Complete Guitar Mastery for Beginners",
+            "slug": "complete-guitar-mastery-beginners",
+            "description": "Learn guitar from scratch with comprehensive lessons covering chords, strumming patterns, and your first songs. Perfect for absolute beginners.",
+            "price": 89.99,
+            "instructor": "Sarah Mitchell",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1"
+        },
+        {
+            "id": 2,
+            "title": "Piano Fundamentals: Classical to Modern",
+            "slug": "piano-fundamentals-classical-modern",
+            "description": "Master piano basics through classical techniques and modern applications. Covers scales, arpeggios, and popular song arrangements.",
+            "price": 129.99,
+            "instructor": "Dr. Michael Chen",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0"
+        },
+        {
+            "id": 3,
+            "title": "Jazz Improvisation Techniques",
+            "slug": "jazz-improvisation-techniques",
+            "description": "Unlock the secrets of jazz improvisation with advanced chord progressions, scales, and performance techniques for intermediate musicians.",
+            "price": 199.99,
+            "instructor": "Marcus Thompson",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 4,
+            "title": "Drum Beats and Rhythms Masterclass",
+            "slug": "drum-beats-rhythms-masterclass",
+            "description": "From basic beats to complex polyrhythms, learn drumming fundamentals and advanced techniques across multiple genres.",
+            "price": 149.99,
+            "instructor": "Alex Rodriguez",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b"
+        },
+        {
+            "id": 5,
+            "title": "Vocal Training: Finding Your Voice",
+            "slug": "vocal-training-finding-your-voice",
+            "description": "Develop proper breathing, pitch control, and vocal range through proven techniques used by professional singers.",
+            "price": 179.99,
+            "instructor": "Emma Williams",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81"
+        },
+        {
+            "id": 6,
+            "title": "Electronic Music Production with Ableton",
+            "slug": "electronic-music-production-ableton",
+            "description": "Create professional electronic tracks using Ableton Live. Learn synthesis, sampling, and mixing techniques.",
+            "price": 249.99,
+            "instructor": "DJ Nova",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04"
+        },
+        {
+            "id": 7,
+            "title": "Classical Violin for All Ages",
+            "slug": "classical-violin-all-ages",
+            "description": "Traditional violin instruction focusing on proper posture, bowing technique, and classical repertoire.",
+            "price": 169.99,
+            "instructor": "Professor Anna Kowalski",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 8,
+            "title": "Bass Guitar Grooves and Techniques",
+            "slug": "bass-guitar-grooves-techniques",
+            "description": "Master the low end with comprehensive bass guitar instruction covering slapping, tapping, and groove patterns.",
+            "price": 119.99,
+            "instructor": "Tony Jackson",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 9,
+            "title": "Songwriting and Composition",
+            "slug": "songwriting-composition",
+            "description": "Learn to write compelling songs with melody, harmony, and lyrical techniques used by hit songwriters.",
+            "price": 159.99,
+            "instructor": "Rachel Green",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 10,
+            "title": "Flute Fundamentals and Beyond",
+            "slug": "flute-fundamentals-beyond",
+            "description": "Comprehensive flute instruction from beginner to advanced, including classical and contemporary pieces.",
+            "price": 139.99,
+            "instructor": "Lisa Park",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 11,
+            "title": "Hip-Hop Production Essentials",
+            "slug": "hip-hop-production-essentials",
+            "description": "Learn to create authentic hip-hop beats using sampling techniques, drum programming, and mixing fundamentals.",
+            "price": 189.99,
+            "instructor": "MC Producer",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 12,
+            "title": "Acoustic Fingerpicking Guitar",
+            "slug": "acoustic-fingerpicking-guitar",
+            "description": "Master fingerpicking patterns and techniques for beautiful acoustic guitar arrangements and solos.",
+            "price": 99.99,
+            "instructor": "James Carter",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 13,
+            "title": "Music Theory for Everyone",
+            "slug": "music-theory-everyone",
+            "description": "Understand the building blocks of music with comprehensive theory lessons applicable to any instrument.",
+            "price": 79.99,
+            "instructor": "Dr. Susan Miller",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 14,
+            "title": "Saxophone Jazz and Blues",
+            "slug": "saxophone-jazz-blues",
+            "description": "Express yourself through saxophone with jazz and blues techniques, improvisation, and classic repertoire.",
+            "price": 199.99,
+            "instructor": "Kenny Blues",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 15,
+            "title": "Ukulele for Beginners",
+            "slug": "ukulele-beginners",
+            "description": "Start your musical journey with the ukulele. Learn chords, strumming patterns, and popular songs.",
+            "price": 49.99,
+            "instructor": "Hawaiian Mike",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 16,
+            "title": "Advanced Piano Improvisation",
+            "slug": "advanced-piano-improvisation",
+            "description": "Take your piano skills to the next level with advanced improvisation techniques and jazz harmony.",
+            "price": 299.99,
+            "instructor": "Professor David Lee",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 17,
+            "title": "Trumpet Classical and Jazz",
+            "slug": "trumpet-classical-jazz",
+            "description": "Master trumpet technique through classical training and jazz performance skills.",
+            "price": 179.99,
+            "instructor": "Louis Armstrong Jr.",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 18,
+            "title": "Cello from Scratch",
+            "slug": "cello-from-scratch",
+            "description": "Begin your cello journey with proper technique, bowing, and beautiful classical pieces.",
+            "price": 219.99,
+            "instructor": "Maestro Giovanni",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 19,
+            "title": "Rock Guitar Solos and Riffs",
+            "slug": "rock-guitar-solos-riffs",
+            "description": "Learn iconic rock guitar solos and riffs from the masters. Covers technique, tone, and style.",
+            "price": 149.99,
+            "instructor": "Eddie Rockstar",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 20,
+            "title": "Harmonica Blues and Folk",
+            "slug": "harmonica-blues-folk",
+            "description": "Express emotion through harmonica with blues bending techniques and folk melodies.",
+            "price": 69.99,
+            "instructor": "Bluesman Bob",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 21,
+            "title": "DJ Mixing and Scratching",
+            "slug": "dj-mixing-scratching",
+            "description": "Learn professional DJ techniques including beatmatching, mixing, and turntable scratching.",
+            "price": 199.99,
+            "instructor": "DJ Scratch Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 22,
+            "title": "Opera Vocal Techniques",
+            "slug": "opera-vocal-techniques",
+            "description": "Develop classical vocal techniques for opera performance with breath control and dramatic expression.",
+            "price": 349.99,
+            "instructor": "Madame Soprano",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 23,
+            "title": "Banjo Bluegrass Fundamentals",
+            "slug": "banjo-bluegrass-fundamentals",
+            "description": "Master traditional banjo picking patterns and bluegrass style with authentic techniques.",
+            "price": 129.99,
+            "instructor": "Country Joe",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 24,
+            "title": "Mandolin for Beginners",
+            "slug": "mandolin-beginners",
+            "description": "Learn mandolin basics with folk, classical, and bluegrass playing styles.",
+            "price": 89.99,
+            "instructor": "Mandolin Mary",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 25,
+            "title": "Recording Studio Techniques",
+            "slug": "recording-studio-techniques",
+            "description": "Professional recording techniques covering microphones, mixing boards, and audio engineering.",
+            "price": 279.99,
+            "instructor": "Studio Pro",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 26,
+            "title": "Clarinet Classical Methods",
+            "slug": "clarinet-classical-methods",
+            "description": "Traditional clarinet instruction focusing on embouchure, breathing, and classical repertoire.",
+            "price": 159.99,
+            "instructor": "Professor Clarinet",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 27,
+            "title": "Percussion World Rhythms",
+            "slug": "percussion-world-rhythms",
+            "description": "Explore global percussion instruments and rhythms from Africa, Latin America, and Asia.",
+            "price": 169.99,
+            "instructor": "Rhythm Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 28,
+            "title": "Harp for Beginners",
+            "slug": "harp-beginners",
+            "description": "Learn beautiful harp techniques with classical and Celtic musical traditions.",
+            "price": 249.99,
+            "instructor": "Celtic Harpist",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 29,
+            "title": "Accordion Folk and Classical",
+            "slug": "accordion-folk-classical",
+            "description": "Master accordion techniques through European folk traditions and classical compositions.",
+            "price": 179.99,
+            "instructor": "Accordion Anna",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 30,
+            "title": "Tuba and Low Brass",
+            "slug": "tuba-low-brass",
+            "description": "Foundation techniques for tuba and low brass instruments in orchestra and band settings.",
+            "price": 189.99,
+            "instructor": "Big Brass Bob",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 31,
+            "title": "Oboe Classical Training",
+            "slug": "oboe-classical-training",
+            "description": "Professional oboe instruction covering embouchure, reed making, and orchestral repertoire.",
+            "price": 229.99,
+            "instructor": "Maestro Oboe",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 32,
+            "title": "Bassoon Fundamentals",
+            "slug": "bassoon-fundamentals",
+            "description": "Learn bassoon basics including fingering, breathing, and classical performance techniques.",
+            "price": 259.99,
+            "instructor": "Professor Bassoon",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 33,
+            "title": "French Horn Mastery",
+            "slug": "french-horn-mastery",
+            "description": "Advanced French horn techniques for orchestra and solo performance.",
+            "price": 209.99,
+            "instructor": "Horn Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 34,
+            "title": "Trombone Jazz and Classical",
+            "slug": "trombone-jazz-classical",
+            "description": "Versatile trombone instruction covering both jazz improvisation and classical technique.",
+            "price": 179.99,
+            "instructor": "Slide Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 35,
+            "title": "Xylophone and Marimba",
+            "slug": "xylophone-marimba",
+            "description": "Mallet percussion techniques for xylophone, marimba, and vibraphone.",
+            "price": 199.99,
+            "instructor": "Mallet Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 36,
+            "title": "Timpani Orchestra Training",
+            "slug": "timpani-orchestra-training",
+            "description": "Professional timpani techniques for orchestral and ensemble performance.",
+            "price": 219.99,
+            "instructor": "Timpani Tom",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 37,
+            "title": "Music Business and Marketing",
+            "slug": "music-business-marketing",
+            "description": "Navigate the music industry with business strategies, marketing, and career development.",
+            "price": 149.99,
+            "instructor": "Industry Expert",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 38,
+            "title": "Home Studio Setup Guide",
+            "slug": "home-studio-setup-guide",
+            "description": "Build your perfect home recording studio on any budget with equipment guides and setup tips.",
+            "price": 99.99,
+            "instructor": "Studio Designer",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 39,
+            "title": "Classical Composition Techniques",
+            "slug": "classical-composition-techniques",
+            "description": "Learn traditional composition methods from baroque to romantic periods.",
+            "price": 299.99,
+            "instructor": "Dr. Composer",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 40,
+            "title": "Blues Harmonica Advanced",
+            "slug": "blues-harmonica-advanced",
+            "description": "Advanced blues harmonica techniques including chromatic playing and amplified performance.",
+            "price": 119.99,
+            "instructor": "Blues Legend",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 41,
+            "title": "Gospel Piano Techniques",
+            "slug": "gospel-piano-techniques",
+            "description": "Learn soulful gospel piano with chord progressions, runs, and spiritual expression.",
+            "price": 159.99,
+            "instructor": "Gospel Grace",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 42,
+            "title": "Latin Guitar Styles",
+            "slug": "latin-guitar-styles",
+            "description": "Explore Latin guitar techniques including flamenco, bossa nova, and salsa rhythms.",
+            "price": 179.99,
+            "instructor": "Latin Maestro",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 43,
+            "title": "Reggae Bass and Guitar",
+            "slug": "reggae-bass-guitar",
+            "description": "Master reggae rhythms and techniques for both bass guitar and rhythm guitar.",
+            "price": 139.99,
+            "instructor": "Island Rhythm",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 44,
+            "title": "Country Music Production",
+            "slug": "country-music-production",
+            "description": "Produce authentic country music with traditional instruments and modern techniques.",
+            "price": 189.99,
+            "instructor": "Nashville Producer",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 45,
+            "title": "Synthesizer Programming",
+            "slug": "synthesizer-programming",
+            "description": "Master analog and digital synthesizers with sound design and programming techniques.",
+            "price": 229.99,
+            "instructor": "Synth Wizard",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 46,
+            "title": "Violin Fiddle Styles",
+            "slug": "violin-fiddle-styles",
+            "description": "Learn traditional fiddle techniques from Irish, Scottish, and American folk traditions.",
+            "price": 149.99,
+            "instructor": "Fiddle Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 47,
+            "title": "Choir Direction and Conducting",
+            "slug": "choir-direction-conducting",
+            "description": "Learn to direct choirs with conducting techniques, vocal arrangement, and performance skills.",
+            "price": 199.99,
+            "instructor": "Maestro Conductor",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 48,
+            "title": "Music Therapy Fundamentals",
+            "slug": "music-therapy-fundamentals",
+            "description": "Explore the healing power of music through therapeutic techniques and applications.",
+            "price": 249.99,
+            "instructor": "Dr. Music Therapy",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 49,
+            "title": "Ear Training and Sight Reading",
+            "slug": "ear-training-sight-reading",
+            "description": "Develop perfect pitch and sight-reading skills essential for all musicians.",
+            "price": 89.99,
+            "instructor": "Professor Perfect Pitch",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 50,
+            "title": "World Music Exploration",
+            "slug": "world-music-exploration",
+            "description": "Journey through global music traditions from gamelan to African drumming.",
+            "price": 179.99,
+            "instructor": "World Music Explorer",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 51,
+            "title": "Electric Guitar Effects and Pedals",
+            "slug": "electric-guitar-effects-pedals",
+            "description": "Master guitar effects pedals and signal processing for creative sound design.",
+            "price": 159.99,
+            "instructor": "Effects Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 52,
+            "title": "Dobro and Slide Guitar",
+            "slug": "dobro-slide-guitar",
+            "description": "Learn slide guitar techniques for both acoustic dobro and electric slide playing.",
+            "price": 129.99,
+            "instructor": "Slide King",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 53,
+            "title": "Music for Film and TV",
+            "slug": "music-film-tv",
+            "description": "Compose and produce music for visual media with scoring and synchronization techniques.",
+            "price": 299.99,
+            "instructor": "Film Composer",
+            "isFeatured": true,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 54,
+            "title": "Tabla Indian Percussion",
+            "slug": "tabla-indian-percussion",
+            "description": "Learn traditional Indian tabla rhythms and techniques from classical masters.",
+            "price": 189.99,
+            "instructor": "Tabla Guru",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 55,
+            "title": "Sitar Classical Indian Music",
+            "slug": "sitar-classical-indian",
+            "description": "Traditional sitar instruction covering ragas, technique, and Indian classical music theory.",
+            "price": 249.99,
+            "instructor": "Sitar Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 56,
+            "title": "Didgeridoo Aboriginal Techniques",
+            "slug": "didgeridoo-aboriginal-techniques",
+            "description": "Learn traditional didgeridoo playing with circular breathing and authentic Aboriginal techniques.",
+            "price": 119.99,
+            "instructor": "Outback Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 57,
+            "title": "Bagpipes Scottish Tradition",
+            "slug": "bagpipes-scottish-tradition",
+            "description": "Master the Great Highland Bagpipe with traditional Scottish piping techniques.",
+            "price": 229.99,
+            "instructor": "Highland Piper",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 58,
+            "title": "Cajon and Box Drum Techniques",
+            "slug": "cajon-box-drum-techniques",
+            "description": "Learn modern cajon playing with flamenco roots and contemporary applications.",
+            "price": 99.99,
+            "instructor": "Cajon Carlos",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 59,
+            "title": "Hang Drum and Steel Tongue",
+            "slug": "hang-drum-steel-tongue",
+            "description": "Explore meditative hang drum playing with rhythmic and melodic techniques.",
+            "price": 179.99,
+            "instructor": "Hang Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 60,
+            "title": "Kalimba Thumb Piano",
+            "slug": "kalimba-thumb-piano",
+            "description": "Learn beautiful kalimba melodies and African thumb piano traditions.",
+            "price": 69.99,
+            "instructor": "Kalimba Kate",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 61,
+            "title": "Ocarina Wind Instrument",
+            "slug": "ocarina-wind-instrument",
+            "description": "Master the ocarina with traditional and contemporary playing techniques.",
+            "price": 89.99,
+            "instructor": "Wind Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 62,
+            "title": "Beatboxing and Vocal Percussion",
+            "slug": "beatboxing-vocal-percussion",
+            "description": "Learn modern beatboxing techniques and vocal percussion for hip-hop and beyond.",
+            "price": 129.99,
+            "instructor": "Beat Master",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        },
+        {
+            "id": 63,
+            "title": "Looping and Live Performance",
+            "slug": "looping-live-performance",
+            "description": "Create live music using loop stations and performance techniques for solo artists.",
+            "price": 199.99,
+            "instructor": "Loop Artist",
+            "isFeatured": false,
+            "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
+        }
+    ]
+}
