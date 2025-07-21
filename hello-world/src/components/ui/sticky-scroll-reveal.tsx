@@ -67,6 +67,7 @@ export const StickyScroll = ({
       className="relative flex h-[30rem] justify-center space-x-10 overflow-y-auto rounded-md p-10"
       ref={ref}
     >
+      {/* Left: Content */}
       <div className="div relative flex items-start px-4">
         <div className="max-w-2xl">
           {content.map((item, index) => (
@@ -98,15 +99,25 @@ export const StickyScroll = ({
           <div className="h-40" />
         </div>
       </div>
+      {/* Right: Color-changing div, properly aligned and scrollbar hidden */}
       <div
         style={{ background: backgroundGradient }}
         className={cn(
-          "sticky top-10 hidden h-60 w-80 overflow-hidden rounded-md bg-white lg:block",
+          "sticky top-10 right-0 h-60 w-80 overflow-hidden rounded-md bg-white lg:block lg:ml-auto lg:mr-0 scrollbar-hide",
           contentClassName,
         )}
       >
         {content[activeCard].content ?? null}
       </div>
+      <style jsx global>{`
+        .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+        }
+        .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      `}</style>
     </motion.div>
   );
 };
